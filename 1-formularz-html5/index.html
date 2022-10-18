@@ -11,43 +11,47 @@
 
 <body>
     <h2>Podaj swoje dane aby się zapisać na szkolenie: </h2>
-        <br>
-        <form action="https://formspree.io/f/myyvpodz" method="POST">
+    <br>
+    <form action="https://formspree.io/f/myyvpodz" method="POST">
 
-            <label for="imie">Imię: </label><br><br>
-            <input name="imie" id="imie" required placeholder="Podaj imię">&nbsp;&nbsp;*<br><br><br>
+        <label for="imie">Imię: </label><br><br>
+        <input name="imie" id="imie" required placeholder="Podaj imię">&nbsp;&nbsp;*<br><br><br>
 
-            <label for="nazwisko">Nazwisko: </label><br><br>
-            <input name="nazwisko" id="nazwisko" required placeholder="Podaj nazwisko">&nbsp;&nbsp;*<br><br><br>
+        <label for="nazwisko">Nazwisko: </label><br><br>
+        <input name="nazwisko" id="nazwisko" required placeholder="Podaj nazwisko">&nbsp;&nbsp;*<br><br><br>
 
-            <label for="email">Email: </label><br><br>
-            <input type="email" name="email" id="email" required placeholder="Podaj email">&nbsp;&nbsp;*<br><br><br>
+        <label for="email">Email: </label><br><br>
+        <input type="email" name="email" id="email" required placeholder="Podaj email">&nbsp;&nbsp;*<br><br><br>
 
-            <label for="telefon">Telefon: </label><br><br>
-            <input type="tel" name="telefon" id="telefon" required placeholder="Podaj telefon">&nbsp;&nbsp;*<br><br><br>
+        <label for="telefon">Telefon: </label><br><br>
+        <input type="tel" name="telefon" id="telefon" required placeholder="Podaj telefon">&nbsp;&nbsp;*<br><br><br>
 
-            <label for="miasto">Wybierz miasto: </label><br><br>
-            <select name="miasto" id="miasto">
-                <option value="Kraków">Kraków</option>
-                <option value="Warszawa">Warszawa</option>
-                <option value="Gdańsk">Gdańsk</option>
-            </select><br><br><br>
+        <label for="miasto">Wybierz miasto: </label><br><br>
+        <select name="miasto" id="miasto">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select><br><br><br>
 
-            <label for="plec">Płeć: </label><br><br>
-            <input type="radio" name="plec" id="plec" value="Mężczyzna">Mężczyzna
-            <input type="radio" name="plec" value="Kobieta">Kobieta <br><br><br>
+        <label for="sex">Płeć</label>
+        <label for="man">
+            <input type="radio" name="sex" id="man" value="Mężczyzna">Mężczyzna</label>
+        <label for="woman">
+            <input type="radio" name="sex" id="woman" value="Kobieta">Kobieta</label>
+        <br><br>
 
-            <label for="zgoda">Zgoda na przetwarzanie danych osobowych: </label><br><br>
-            <input type="checkbox" name="zgoda" id="zgoda" value="Zgoda na przetwarzanie danych osobowych wyrażona"><br><br><br>
+        <label for="zgoda">Zgoda na przetwarzanie danych osobowych: </label><br><br>
+        <input type="checkbox" name="zgoda" id="zgoda"
+            value="Zgoda na przetwarzanie danych osobowych wyrażona"><br><br><br>
 
-            <label for="message">Wiadomość: </label><br><br>
-            <textarea maxlength="1000" name="message" id="message"
-                placeholder="Tutaj wpisz wiadomość do nas"></textarea><br><br><br>
+        <label for="message">Wiadomość: </label><br><br>
+        <textarea maxlength="1000" name="message" id="message"
+            placeholder="Tutaj wpisz wiadomość do nas"></textarea><br><br><br>
 
-            <input type="submit" value="Wyślij">
+        <input type="submit" value="Wyślij">
 
-            <h4>* Pole wymagane</h4><br>
-        </form>
+        <h4>* Pole wymagane</h4><br>
+    </form>
 </body>
 
 </html>
